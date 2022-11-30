@@ -29,4 +29,4 @@ jobs:
                -X DELETE \
                -H "Accept: application/vnd.github.v3+json" \
                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-                  ${GITHUB_API_BASE_URL}/users/maven-new-name/packages/maven/com.nishtha.package1.java-project
+                  ${GITHUB_API_BASE_URL}/orgs/maven-new-name/packages/maven/com.nishtha.package1.java-project
